@@ -1,0 +1,9 @@
+{
+	"name": "unnerf_core_units",
+	"displayName": "Unnerf Core Units",
+	"description": "Allow the Alpha, Beta, and Gamma units to damage buildings by removing the 1% damage nerf.",
+	"dependencies": [],
+	"version": "1.0",
+	"minGameVersion": "126",
+	"hidden": false
+}
