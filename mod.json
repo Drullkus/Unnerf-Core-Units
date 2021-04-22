@@ -5,5 +5,6 @@
 	"dependencies": [],
 	"version": "1.0",
 	"minGameVersion": "126",
-	"hidden": false
+	"hidden": false,
+	"repo": "Drullkus/Unnerf-Core-Units"
 }
