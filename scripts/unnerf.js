@@ -1,8 +1,8 @@
 Events.on(ContentInitEvent, () => {
 	const units = [
-		Vars.content.getByName(ContentType.unit, "alpha"),
-		Vars.content.getByName(ContentType.unit, "beta"),
-		Vars.content.getByName(ContentType.unit, "gamma")
+		UnitTypes.alpha,
+		UnitTypes.beta,
+		UnitTypes.gamma
 	];
 
 	units.forEach(unit => {
