@@ -1,12 +1,6 @@
 Events.on(ContentInitEvent, () => {
-	const units = [
-		UnitTypes.alpha,
-		UnitTypes.beta,
-		UnitTypes.gamma
-	];
-
-	units.forEach(unit => {
-		unit.weapons.each(w => {
+	Vars.content.blocks().each(b => b instanceof CoreBlock, b => {
+		b.unitType.weapons.each(w => {
 			w.bullet.buildingDamageMultiplier = 1;
 		})
 	})
