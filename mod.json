@@ -4,7 +4,7 @@
 	"author": "Drullkus",
 	"description": "Allow the Alpha, Beta, and Gamma units to damage buildings by removing the 1% damage nerf. Will also make units from modded cores not have building damage penalty as well.",
 	"version": "1.1",
-	"minGameVersion": "126",
+	"minGameVersion": "142",
 	"repo": "Drullkus/Unnerf-Core-Units",
 	"dependencies": [],
 	"hidden": false,
